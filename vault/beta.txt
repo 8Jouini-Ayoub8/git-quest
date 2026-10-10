@@ -1,0 +1,3 @@
+=== VAULT BETA ===
+content: 0xDEADBEEF
+STATUS: LOCKED
