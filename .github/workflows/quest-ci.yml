@@ -1,0 +1,24 @@
+# 🛰️ Quest CI — runs in YOUR fork on every push to main (Level 7).
+# Do not modify this file: the Quest Master compares it with HQ's version.
+name: 🛰️ Quest CI
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    if: github.event.repository.fork == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout your code
+        uses: actions/checkout@v5
+
+      - name: 🔍 Inspect your agent file
+        env:
+          OWNER: ${{ github.repository_owner }}
+        run: python3 .github/quest/ci_inspect.py "$OWNER"

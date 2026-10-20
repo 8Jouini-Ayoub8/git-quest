@@ -1,0 +1,20 @@
+name: 🚩 Start the Quest
+description: Enlist as an agent — the Quest Master will guide you level by level.
+title: "[QUEST] Agent reporting for duty"
+labels: ["quest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🕵️ Git Quest — Securinets ENIT
+        Before submitting: click **Fork** (top-right of this repository) and keep the default name.
+        After you submit, the Quest Master 🤖 answers in this issue within ~30 seconds.
+  - type: checkboxes
+    id: ready
+    attributes:
+      label: Checklist
+      options:
+        - label: I forked this repository to my own account
+          required: true
+        - label: I will NOT share my flags (they are personal anyway 😉)
+          required: true

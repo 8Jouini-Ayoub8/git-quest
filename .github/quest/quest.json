@@ -1,0 +1,18 @@
+{
+  "flag_prefix": "SecurinetsENIT",
+  "passphrase": "h1st0ry-n3v3r-f0rg3ts",
+  "intel_branch": "intel-update",
+  "default_branch": "main",
+  "levels": [
+    {"n": 0, "id": "enlist",    "title": "Enlist",                "emoji": "🍴", "skills": "fork"},
+    {"n": 1, "id": "identity",  "title": "Identity",              "emoji": "🆔", "skills": "clone · config · status · add · commit · push"},
+    {"n": 2, "id": "ghost",     "title": "Ghost in the History",  "emoji": "👻", "skills": "log · show"},
+    {"n": 3, "id": "precision", "title": "Precision Strike",      "emoji": "🎯", "skills": "status · diff · add <file>"},
+    {"n": 4, "id": "cloud",     "title": "Teammate in the Cloud", "emoji": "☁️", "skills": "rejected push · pull"},
+    {"n": 5, "id": "branch",    "title": "Branch Out",            "emoji": "🌿", "skills": "branch · switch · merge · push -u"},
+    {"n": 6, "id": "intel",     "title": "Intel from HQ",         "emoji": "📡", "skills": "remote · fetch · merge conflict"},
+    {"n": 7, "id": "machine",   "title": "Wake the Machine",      "emoji": "⚙️", "skills": "GitHub Actions · CI logs"},
+    {"n": 8, "id": "report",    "title": "Report to HQ",          "emoji": "📨", "skills": "pull request"},
+    {"n": 9, "id": "golive",    "title": "BONUS · Go Live",       "emoji": "🚀", "skills": "deployment · GitHub Pages"}
+  ]
+}
